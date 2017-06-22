@@ -1,22 +1,32 @@
 [
     {
-        "repository": "android_device_samsung_galaxys2-common",
-        "target_path": "device/samsung/galaxys2-common"
+        "repository": "dragonGR/device_samsung_galaxys2-common",
+        "target_path": "device/samsung/galaxys2-common",
+        "branch":      "du-n7.1"
     },
     {
-        "repository": "android_kernel_samsung_smdk4412",
-        "target_path": "kernel/samsung/smdk4412"
+        "repository": "dragonGR/android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
+        "branch":      "n7.1"
     },
     {
-        "repository": "android_hardware_samsung",
-        "target_path": "hardware/samsung"
+        "repository": "LineageOS/android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode",
+        "branch":      "cm-14.1"
     },
     {
-        "repository": "android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode"
+        "repository": "LineageOS/android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "branch":      "cm-14.1"
     },
     {
-       "repository": "android_external_stlport",
-       "target_path": "external/stlport"
+        "repository":  "AICP/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "branch":      "n7.1"
+    },
+    {
+        "repository":  "LineageOS/android_external_stlport",
+        "target_path": "external/stlport",
+        "branch":      "cm-14.1"
     }
 ]
